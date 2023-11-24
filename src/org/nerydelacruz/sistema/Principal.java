@@ -18,10 +18,14 @@ public class Principal extends Application {
     private Scene escena;
     public static void main(String [] args){
         System.out.println("Hola");
+        launch(args);
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage escenarioPrincipal) throws Exception {
+        this.escenarioPrincipal = escenarioPrincipal;
+        escenarioPrincipal.show();
+        menuPrincipal();
 
     }
 

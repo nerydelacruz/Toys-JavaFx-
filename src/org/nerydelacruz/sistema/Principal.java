@@ -17,7 +17,8 @@ public class Principal extends Application {
     private Stage escenarioPrincipal;
     private Scene escena;
     public static void main(String [] args){
-        System.out.println("Bendicion Primera");
+        System.out.println("La aplicacion Gracias a Dios funciona");
+>>>>>>> cabecera
         launch(args);
     }
 

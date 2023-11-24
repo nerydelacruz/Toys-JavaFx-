@@ -1,4 +1,13 @@
 package org.nerydelacruz.controller;
 
-public class ControladorPrincipal {
+import javafx.fxml.Initializable;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class ControladorPrincipal implements Initializable {
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        
+    }
 }
